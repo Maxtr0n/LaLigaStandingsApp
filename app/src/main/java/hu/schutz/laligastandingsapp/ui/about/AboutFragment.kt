@@ -1,4 +1,4 @@
-package hu.schutz.laligastandingsapp.fragments
+package hu.schutz.laligastandingsapp.ui.about
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

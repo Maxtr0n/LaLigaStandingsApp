@@ -1,4 +1,4 @@
-package hu.schutz.laligastandingsapp.viewModels
+package hu.schutz.laligastandingsapp.ui.standings
 
 import androidx.lifecycle.ViewModel
 

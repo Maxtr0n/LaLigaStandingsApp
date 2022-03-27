@@ -1,4 +1,4 @@
-package hu.schutz.laligastandingsapp.fragments
+package hu.schutz.laligastandingsapp.ui.standings
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import hu.schutz.laligastandingsapp.R
-import hu.schutz.laligastandingsapp.viewModels.StandingsViewModel
 
 class StandingsFragment : Fragment() {
 
