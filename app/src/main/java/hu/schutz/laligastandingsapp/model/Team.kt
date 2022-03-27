@@ -1,4 +1,7 @@
 package hu.schutz.laligastandingsapp.model
 
-class Team {
-}
+data class Team(
+    val name: String,
+    val points: Int,
+    val ranking: Int
+)

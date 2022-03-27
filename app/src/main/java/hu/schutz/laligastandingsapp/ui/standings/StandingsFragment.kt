@@ -20,7 +20,7 @@ class StandingsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.standings_fragment, container, false)
+        return inflater.inflate(R.layout.fragment_standings, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
