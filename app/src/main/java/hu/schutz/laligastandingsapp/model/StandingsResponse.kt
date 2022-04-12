@@ -1,6 +1,6 @@
 package hu.schutz.laligastandingsapp.model
 
-data class Response (
+data class StandingsResponse (
     val status: String,
     val data: League
         )
