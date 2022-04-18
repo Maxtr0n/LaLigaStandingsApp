@@ -1,4 +1,4 @@
-package hu.schutz.laligastandingsapp.model
+package hu.schutz.laligastandingsapp.data
 
 data class TeamStats (
         val name: String,
