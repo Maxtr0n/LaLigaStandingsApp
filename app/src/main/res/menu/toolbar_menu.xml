@@ -6,4 +6,8 @@
         android:title="@string/about"
         android:icon="@drawable/ic_baseline_info_24"
         app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/testCrashMenuItem"
+        android:title="Crash"
+        app:showAsAction="ifRoom"/>
 </menu>
