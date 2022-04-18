@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/layout/fragment_about.xml" value="0.3625" />
+        <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/layout/fragment_standings.xml" value="0.3625" />
         <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/layout/standings_fragment.xml" value="0.3625" />
+        <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/layout/team_item.xml" value="0.3625" />
+        <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/menu/toolbar_menu.xml" value="0.3625" />
+        <entry key="..\:/Programming/LaLigaStandingsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1915" />
       </map>
     </option>
   </component>
