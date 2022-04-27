@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487876536478",
+    "project_id": "laligastandingsapp",
+    "storage_bucket": "laligastandingsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487876536478:android:c784a7d53b18b2a385b38f",
+        "android_client_info": {
+          "package_name": "hu.schutz.laligastandingsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487876536478-g3lp8m71hegqg43l4t6a4gc8csd3968b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlg0z_7zjSh1mMOpFb2p4qEOA0YDJKxMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487876536478-g3lp8m71hegqg43l4t6a4gc8csd3968b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

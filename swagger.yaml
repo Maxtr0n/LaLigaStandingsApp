@@ -1,0 +1,80 @@
+swagger: "2.0"
+info:
+  description: "Description of the API of LaLiga standings App"
+  version: "1.0.0"
+  title: "LaLiga standings app"
+host: "api-football-standings.azharimm.site"
+paths:
+  /leagues/esp.1/standings:
+    get:
+      summary: " Get standings of LaLiga"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "season"
+        in: "query"
+        description: "Season of the league"
+        required: true
+        type: "string"
+      - name: "sort"
+        in: "query"
+        description: "Sort mode of the standings"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+              $ref: "#/definitions/StandingsResponse"
+              
+definitions:
+  StandingsResponse:
+    type: "object"
+    properties:
+      status:
+        type: "string"
+      data:
+        $ref: "#/definitions/League"
+  League:
+    type: "object"
+    properties:
+      name:
+        type: "string"
+      abbreviation:
+        type: "string"
+      seasonDisplay:
+        type: "string"
+      season:
+        type: "integer"
+        format: "int32"
+      standings:
+        type: "array"
+        items: 
+          $ref: "#/definitions/StandingsObject"
+  StandingsObject:
+    type: "object"
+    properties:
+      team:
+        $ref: "#/definitions/TeamDetails"
+      stats:
+        type: "array"
+        items:
+          $ref: "#/definitions/TeamStats"
+  TeamDetails:
+    type: "object"
+    properties:
+      name:
+        type: "string"
+  TeamStats:
+    type: "object"
+    properties:
+        name:
+          type: "string"
+        displayName:
+          type: "string"
+        value:
+          type: "integer"
+          format: "int32"
+        displayValue:
+          type: "string"
+  
